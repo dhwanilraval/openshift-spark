@@ -39,7 +39,7 @@ USER root
 
 
 # Install required RPMs and ensure that the packages were installed
-RUN yum install -y java-1.8.0-openjdk wget krb5-workstation \
+RUN yum install -y java-1.8.0-openjdk wget numpy krb5-workstation \
     && yum clean all && rm -rf /var/cache/yum && \
     rpm -q  java-1.8.0-openjdk wget numpy
 
