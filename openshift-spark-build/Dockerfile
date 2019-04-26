@@ -46,7 +46,7 @@ RUN yum install -y java-1.8.0-openjdk wget numpy krb5-workstation \
 # Add all artifacts to the /tmp/artifacts
 # directory
 COPY \
-    spark-2.3.0-bin-hadoop2.7.tgz \
+    spark-2.3.2-bin-hadoop2.7.tgz \
     /tmp/artifacts/
 
 # Add scripts used to configure the image
